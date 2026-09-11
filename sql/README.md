@@ -2,6 +2,8 @@
 
 `ex.ipynb`로 발표한다. 별도 .py 실행은 필요하지 않다. SQL은 Supabase SQL Editor에서 실행하고, Python 셀에 붙여 넣지 않는다.
 
+먼저 노트북에서 `AuthUsers.sign_in()`으로 로그인하고 `get_my_info()`로 본인 정보를 확인한다. `UserService.get_active_users()`로 활성 회원 상세정보 수를 확인한 뒤 주문 실습을 진행한다. Python 코드 셀은 16개이며 마지막 셀에서 로그아웃한다.
+
 ## 발표 주제 6가지
 
 | 발표 항목 | 보여줄 자료와 실행 위치 |
@@ -15,7 +17,7 @@
 
 ## Supabase에 저장하기
 
-현재 이 파일과 .sql 파일은 로컬 사본이다. Supabase 저장 완료를 뜻하지 않는다. 이번 직접 저장 시도는 Windows 현재 URL 확인 실패로 자동 보안 검사에서 차단되었다.
+현재 이 파일과 .sql 파일은 로컬 사본이다. Supabase 저장 완료를 뜻하지 않는다. SQL 파일을 수정해도 Supabase에 자동 저장되지는 않는다.
 
 1. SQL Editor의 + 버튼으로 새 쿼리를 연다.
 2. 아래 원하는 항목의 SQL 전체를 복사한다. Title과 Description도 SQL 주석에 포함되어 있으므로 내용만 복사해도 설명이 보존된다.
